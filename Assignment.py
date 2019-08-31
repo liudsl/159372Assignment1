@@ -1,6 +1,5 @@
 import numpy as np
 
-
 data = np.loadtxt("bank.csv", dtype=np.str, delimiter=";", skiprows=1)
 
 
@@ -13,3 +12,4 @@ def remove_extra_quotes(para_data):
 
 
 remove_extra_quotes(para_data=data)
+print(data)
